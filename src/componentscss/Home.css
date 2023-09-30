@@ -1,0 +1,81 @@
+.form-container{
+    background-color: rgb(254, 254, 254);
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: auto;
+    top:20px ;
+    justify-self: flex-start;
+    box-shadow: 10px 10px 30px 1px rgba(0, 0, 0, 0.3);
+    border:2px solid #DEE3FF;
+    
+}
+.home-container{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    padding: 50px;
+    width: 85%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+}
+h1{
+    font-family: 'DM Serif Display', serif;
+    font-size: 42px!important;
+    color: #3B2F65;
+    padding: 0;
+    margin: 0;
+}
+.title{
+    margin-left: 150px;
+}
+p{
+    color: #6F6F6F;
+    opacity: 100;
+    text-align: LEFT;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    margin: 0;
+}
+.form-box{
+    margin: 15px;
+    display: grid;
+}
+input,select{
+    border-radius: 10px;
+    border-color: #f4f4f4;
+    border:2px solid #DEE3FF;
+    margin: 10px;
+    height: 40px;
+    width: 156px;
+}
+input:nth-child(3){
+    width: 92%;
+}
+input:nth-child(5){
+    width: 63%;
+}
+input:nth-child(6){
+    width: 92%;
+}
+input:nth-child(7){
+    width: 92%;
+}
+select,option{
+    width: 24%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    height: 40px;
+    width: 100px;
+    font-family: Inter, sans-serif;
+    border: none;
+    background-color: #FFD90F;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+}
